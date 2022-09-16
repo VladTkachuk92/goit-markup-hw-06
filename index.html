@@ -81,11 +81,10 @@
             </button>
             
             <form class="register-form" name="register-form" >
-              
               <strong class="register-title">Залиште свої дані, ми вам передзвонимо</strong>
 
               <div class="register-group" role="group">
-                <label>
+                <label class="labelform">
                   <span>Ім'я</span>
                   <input type="text" name="">
                   <svg width="18px" height="18px">
@@ -93,7 +92,7 @@
                   </svg>
                 </label>
 
-                <label>
+                <label class="labelform">
                   <span>Телефон</span>
                   <input type="tel" name="">
                   <svg width="18px" height="18px">
@@ -101,7 +100,7 @@
                   </svg>
                 </label>
 
-                <label>
+                <label class="labelform">
                   <span>Пошта</span>
                   <input type="email" name="">
                   <svg width="18px" height="18px">
@@ -109,7 +108,7 @@
                   </svg>
                 </label>
 
-                <label>
+                <label class="labelform">
                   <span>Коментар</span>
                   <textarea name="" rows="4" placeholder="Введіть текст"></textarea>
                 </label>
@@ -672,6 +671,22 @@
               </a>
             </li>
           </ul>
+        </div>
+        <div class="footer-mail">
+          <h3 class="footer-mail-title">Підпишіться на розсилку</h3>
+        
+            <form class="footer-form">
+              <label for="email">
+                <input type="email" name="email" id="email" class="email-form" placeholder="E-mail" >
+              </label>            
+              <button type="submit" class="subscribe-btn">
+                Підписатися
+                <svg width="24px" height="24px">
+                  <use href="./images/icons/icons.svg#send"></use>
+                </svg>
+              </button>
+            </form>
+          
         </div>
       </div>
     </footer>
