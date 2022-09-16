@@ -85,42 +85,46 @@
 
               <div class="register-group" role="group">
                 <label class="labelform">
-                  <span>Ім'я</span>
-                  <input type="text" name="">
-                  <svg width="18px" height="18px">
-                    <use></use>
+                  <span class="labelform-text">Ім'я</span>
+                  <input type="text" name="text" class="labelform-input">
+                  <svg class="register-group-icon" width="18px" height="18px">
+                    <use href="./images/icons/icons.svg#person"></use>
                   </svg>
                 </label>
 
                 <label class="labelform">
-                  <span>Телефон</span>
-                  <input type="tel" name="">
-                  <svg width="18px" height="18px">
-                    <use></use>
+                  <span class="labelform-text">Телефон</span>
+                  <input type="tel" name="tel" class="labelform-input">
+                  <svg class="register-group-icon" width="18px" height="18px">
+                    <use href="./images/icons/icons.svg#phone"></use>
                   </svg>
                 </label>
 
                 <label class="labelform">
-                  <span>Пошта</span>
-                  <input type="email" name="">
-                  <svg width="18px" height="18px">
-                    <use></use>
+                  <span class="labelform-text">Пошта</span>
+                  <input type="email" name="email" class="labelform-input">
+                  <svg class="register-group-icon" width="18px" height="18px">
+                    <use href="./images/icons/icons.svg#email"></use>
                   </svg>
                 </label>
 
                 <label class="labelform">
-                  <span>Коментар</span>
-                  <textarea name="" rows="4" placeholder="Введіть текст"></textarea>
+                  <span class="labelform-text">Коментар</span>
+                  <textarea class="labelform-massage" name="" rows="5" placeholder="Введіть текст"></textarea>
                 </label>
 
               </div>
 
-              <label>
-                <input type="checkbox">
-                <span>Погоджуюся з розсилкою та приймаю <a href="">Умови договору</a></span>
+              <label class="labelform-agreement-checkbox">
+                <input type="checkbox" class="labelform-checkbox visually-hidden" name="checkbox">
+                <svg class="register-form-icons" width="16" height="15">
+                  <use class="icon-checked" href="./images/icons/icons.svg#checked"></use>
+                  <use class="icon-unchecked" href="./images/icons/icons.svg#unchecked"></use>
+                </svg>
+                <span class="labelform-agreement">Погоджуюся з розсилкою та приймаю <a href="" class="agreement-link" target="_blank">Умови договору</a></span>
               </label>
 
-              <button type="submit">Відправити</button>
+              <button type="submit" class="form-button">Відправити</button>
 
             </form>
 
